@@ -4,13 +4,12 @@
   &__bio-image {
     height: 30vh;
     width: 100%;
-    background: 
-      linear-gradient(
+    background: linear-gradient(
         to right,
         rgba($primary-color, 0.9),
         rgba($primary-color, 0.3)
       ),
-      url('../img/model-1.jpg') center top;
+      url("../img/model-1.jpg") center top;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -42,7 +41,7 @@
     }
 
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       top: 100%;
       left: 0;
@@ -92,9 +91,6 @@
   }
 
   footer {
-    transform:
-      rotate(90deg)
-      translate(-3rem, -5rem);
+    transform: rotate(90deg) translate(-3rem, -5rem);
   }
-  
 }
