@@ -196,7 +196,8 @@
   border-bottom: 5px solid #ff652f;
 }
 
-.about .jobs__job h2, .about .jobs__job h3 {
+.about .jobs__job h2,
+.about .jobs__job h3 {
   margin: 0.5rem 0;
 }
 
@@ -253,7 +254,7 @@
 }
 
 .projects__item::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 100%;
   left: 0;
