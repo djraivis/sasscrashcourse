@@ -191,12 +191,13 @@
 }
 
 .about .jobs__job {
-  background: #414141;
+  background: green;
   padding: 0.5rem;
   border-bottom: 5px solid #ff652f;
 }
 
-.about .jobs__job h2, .about .jobs__job h3 {
+.about .jobs__job h2,
+.about .jobs__job h3 {
   margin: 0.5rem 0;
 }
 
